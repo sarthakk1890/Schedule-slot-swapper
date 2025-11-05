@@ -16,6 +16,7 @@ Backend (`server`): create `server/.env` or export envs
 
 Frontend (`client`): create `client/.env`
 - `VITE_API_URL` (e.g. `http://localhost:5000/api`)
+- `VITE_SOCKET_URL` (e.g. `http://localhost:5000`) (it is same as backend url without /api)
 
 (Add .env files before moving forward)
 

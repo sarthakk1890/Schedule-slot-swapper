@@ -21,7 +21,7 @@ export function SocketProvider({ children }) {
         }
 
         // Initialize socket connection
-        const newSocket = io(import.meta.env.VITE_API_URL, {
+        const newSocket = io(import.meta.env.VITE_SOCKET_URL, {
             auth: {
                 token: token,
             },
