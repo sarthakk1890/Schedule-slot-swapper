@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        @apply bg-gray-50 text-gray-900 font-sans;
+    }
+}
+
+@layer components {
+    .muted {
+        @apply text-gray-600 text-sm;
+    }
+    
+    .error {
+        @apply bg-red-100 text-red-800 px-4 py-2 rounded-md mb-2;
+    }
+}
